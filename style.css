@@ -1,12 +1,12 @@
-p { color: red;}
+p { color: black;}
 
-p {color: #666; font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;}
+p {color: #blue; font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;}
 
-h1 {color: blue; font-family: 'Merriweather',Georgia, "Times New Roman", serif;}
+h1 {color: black; font-family: 'Merriweather',Georgia, "Times New Roman", serif;}
 
-body {background-color: #ebe3c3;}
+body {background-color: #red;}
 
-#container {background-color: #fff;
+#container {background-color: #black;
               width: 80%;
             margin-top: 0;
             margin-right: auto;
