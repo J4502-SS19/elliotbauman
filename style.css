@@ -1,12 +1,12 @@
-p { color: #708090;}
+p { color: black;}
 
-p {color: #708090; font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;}
+p {color: black; font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;}
 
 h1 {color: black; font-family: 'Merriweather',Georgia, "Times New Roman", serif;}
 
-body {background-color: white;}
+body {background-color: #DDDDDD;}
 
-#container {background-color: #EEE8AA;
+#container {background-color: #c1e1ec;
               width: 80%;
             margin-top: 0;
             margin-right: auto;
@@ -15,19 +15,26 @@ body {background-color: white;}
             margin: 0 auto 0 auto;
             margin: 0 auto;}
 
-#nav {margin: 0; padding: 0; list-style-type: none; border-bottom: 1px solid #000000}
+nav ul {margin: 0; padding: 0; list-style-type: none; border-bottom: 1px solid #000000}
 
-#nav a:link, #nav a:visited
-{display: block; color: #000000; background-color: #EEE8AA;
+nav ul a:link, #nav a:visited
+{display: block; color: #000000; background-color: #DDDDDD;
 font-weight: bold; text-align: center; text-decoration: none;
 padding: 4px; font-family: Helvetica, Arial, sans-serif;}
 
-#nav a:hover, #nav a:active {background-color: #FFD700}
+nav ul a:hover, #nav a:active {background-color: #FFD700}
 
 .caption {font-family: Georgia, "Times New Roman", serif;
           font-style: italic;
         color: black;
         font-size: 0.8em;
+        margin-top: 0;
+        text-align: left;}
+
+.pullquote {font-family: Georgia, "Times New Roman", serif;
+          font-style: italic;
+        color: black;
+        font-size: 2.5em;
         margin-top: 0;
         text-align: left;}
 
@@ -42,6 +49,7 @@ img {border: none}
 	display: flex;
 	flex-direction: column;
 }
+
 
 @media (min-width: 600px) {
 	#nav {
