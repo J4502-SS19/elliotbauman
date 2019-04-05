@@ -38,7 +38,7 @@ nav ul a:hover, #nav a:active {background-color: #FFD700}
         margin-top: 0;
         text-align: left;}
 
-#footer {color: black;
+footer {color: black;
         font-family: Georgia, "Times New Roman", serif;
         font: 0.8em;
         border-top: 1px solid black;}

@@ -44,7 +44,8 @@ article:last-of-type {border-bottom: none;}
 grid-template-areas:
   "a b b"
   "c c e"
-  "d d d"}
+  "d d ."
+  "f f f"}
 }
 
 .authorbox { width:100%; grid-gap: 20px;}
@@ -69,3 +70,5 @@ grid-template-areas:
 .pullquote {
   margin-top: 0;
   grid-area: e; }
+
+footer {grid-area: f;}
