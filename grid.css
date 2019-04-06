@@ -29,7 +29,7 @@ article:last-of-type {border-bottom: none;}
 
   .authorbox img {display: block;
     width: 100%; margin: 0.5em;}
-  .authorbox {width: 25%; max-width: 200px; float: left; margin-right: 20px;}
+  .authorbox {width: 100%; max-width: 200px; float: left; margin-right: 20px;}
 }
 
 @media screen and (min-width:1000px) {
@@ -50,9 +50,8 @@ grid-template-areas:
   "f f f"}
 }
 
-.authorbox {
-  width: 100%;
-  grid-area: a;
+.authorbox { width:100%;
+ grid-area: a;
 }
 
 .section1 {
