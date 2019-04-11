@@ -24,6 +24,14 @@ padding: 4px; font-family: Helvetica, Arial, sans-serif;}
 
 nav ul a:hover, #nav a:active {background-color: #FFD700}
 
+.title {
+    display: flex;
+    flex-flow: row;
+    background-color: #DDDDDD;
+    margin: 0;
+    padding: 0 10px;
+}
+
 .caption {font-family: Georgia, "Times New Roman", serif;
           font-style: italic;
         color: black;
