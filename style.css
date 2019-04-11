@@ -45,15 +45,42 @@ footer {color: black;
 
 img {border: none}
 
-#nav {
+nav {
 	display: flex;
 	flex-direction: column;
 }
 
-
-@media (min-width: 600px) {
+@media (min-width: 700px) {
 	#nav {
 		flex-direction: row;
 		justify-content: space-around;
 	}
+}
+
+.menutrigger {
+  order: 1;
+}
+
+h1 header {order: 2;}
+
+nav li {display: none;}
+
+@media screen and (min-width: 700px){
+
+    nav li {
+        display: flex;
+    }
+
+    nav ul li {
+        border-top: none;
+    }
+
+    .menu-trigger {
+        display: none;
+    }
+
+    nav {
+        order: 2;
+    }
+
 }

@@ -14,16 +14,16 @@ article {margin-bottom: 0.7em; border-bottom: 1px solid; color: black}
 
 article:last-of-type {border-bottom: none;}
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 700px) {
   nav ul {flex-flow: row;
   justify-content: space-between;}
 }
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:700px) {
   .logo {display:block; margin: 1em; float: right}
 }
 
-@media screen and (min-width:600px)
+@media screen and (min-width:700px)
 {
   #container {width: 80%;}
 
